@@ -1,1 +1,4 @@
-# empty
+goran:
+  name: Goran Example
+  email: goran@example.com
+  password_digest: <%= User.digest('password') %> # Fixtures support Embedded Ruby
